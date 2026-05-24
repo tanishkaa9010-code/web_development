@@ -1,0 +1,9 @@
+.form-container{background-color:blanchedalmond;
+border-radius:3%; padding:20px;width:auto;}
+label{margin:20px; color:darkblue}
+input,textarea{width: auto; padding:20px; margin-bottom: 20px;}
+button{background-color: darkblue;
+font-size: large; color:blanchedalmond}
+button:hover{background-color: brown;
+border-top-left-radius: ;}
+form{cursor:url("https://toppng.com/uploads/preview/cool-mouse-cursor-11549398017efy2kysdl5.png"),auto;}

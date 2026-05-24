@@ -1,0 +1,6 @@
+.checkbox{appearance: none;
+border: 10px solid crimson;}
+.checkbox:checked::after{background-color:brown;
+content:"✓";
+border-color: blanchedalmond;
+align-content: center;}

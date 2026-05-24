@@ -1,0 +1,10 @@
+body{background-color: blue;}
+.blog-post-card{background-color: white;
+text-align: center; border-radius: 10px;
+  width: 300px; }
+.post-img{border-bottom: 2px beige;width: 100% ;}
+.post-content{padding: 20px ;}
+.post-title,.post-excerpt{color: beige; margin: 20px;}
+.read-more{color: bisque; background-color: cornflowerblue; margin: 20px; padding: 15;
+border-radius: 10px;display: contents; }
+.read-more:hover{background-color: chocolate;}
