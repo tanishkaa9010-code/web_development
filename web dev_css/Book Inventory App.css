@@ -1,0 +1,55 @@
+ .read,
+.to-read,
+.in-progress {
+  background-image: linear-gradient(to right, lightgreen, green);
+}
+
+span {
+  display: inline-block;
+}
+
+tr.to-read span.status {
+  border: 2px solid red;
+  background-image: linear-gradient(to left, red, pink);
+}
+
+tr.in-progress span.status {
+  border: 2px solid blue;
+  background-image: linear-gradient(to left, blue, blueviolet);
+}
+
+span[class="status"],
+span[class^="rate"] {
+  height: fit-content;
+  width: fit-content;
+  padding:5px;
+}
+
+span[class^="rate"]{border: 2px solid blue;
+border-radius: 5cm;
+margin: auto;
+height: auto;
+width: auto;
+background-color: cadetblue;
+}
+
+.rate > span {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 2px;
+  height: 10px;
+  width: 10px;
+  background-color: white;
+}
+
+.one span:first-child {
+  background-image: linear-gradient(gold, orange);
+}
+
+.two span:nth-child(-n+2) {
+  background-image: linear-gradient(gold, orange);
+}
+
+.three span {
+  background-image: linear-gradient(gold, orange);
+}

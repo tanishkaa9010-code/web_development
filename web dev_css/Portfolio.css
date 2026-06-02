@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+.project-tile {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: lightgray;
+  }
+}
